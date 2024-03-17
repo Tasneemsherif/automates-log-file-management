@@ -1,0 +1,11 @@
+Address Resolution Protocol (reply)
+    Hardware type: Ethernet (1)
+    Protocol type: IPv4 (0x0800)
+    Hardware size: 6
+    Protocol size: 4
+    Opcode: reply (2)
+    Sender MAC address: PcsCompu_0e:34:8d (08:00:27:0e:34:8d)
+    Sender IP address: 10.0.0.21
+    Target MAC address: Netgear_67:ea:76 (a4:2b:8c:67:ea:76)
+    Target IP address: 10.0.0.1
+
