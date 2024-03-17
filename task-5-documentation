@@ -1,0 +1,36 @@
+# Log File Management Script 
+
+## Introduction
+This script manages log files by providing options for backup, log analysis, and report generation.
+
+## Requirements
+- Bash shell
+- Permissions to read/write log files and directories specified for backup and reports
+
+## Installation
+1. Download the `log_file_management.sh` script.
+2. Ensure execute permissions are set (`chmod +x log_file_management.sh`).
+
+## Usage
+ 1. Various configurations, such as backup file location, log analysis criteria, and reporting format. 
+ 2.Implement support for configuration files to allow users to customize script behavior further.
+
+## Command-line Options
+- `-l <log_file>`: Specify the log file path.
+- `-b <backup_dir>`: Specify the backup directory.
+- `-r <report_dir>`: Specify the report directory.
+- `-m <max_backups>`: Specify the maximum number of backups to retain.
+- `-c <config_file>`: Specify the configuration file path.
+- `-h`: Display help message.
+
+## Configuration
+- A configuration file in the format:
+  ```properties
+  # Log file to be monitored
+  log_file=/var/log/path
+  # Directory where backups are stored
+  backup_dir=/var/log/backups
+  # Directory for reports
+  report_dir=/var/log/reports
+  # Maximum number of backups to retain
+  max_backups=3
